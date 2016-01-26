@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/fullstacktraining/mean-stack-app#readme",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "^4.13.3"
   },
   "devDependencies": {
