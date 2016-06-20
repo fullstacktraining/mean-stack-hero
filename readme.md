@@ -1,6 +1,6 @@
 # MEAN stack hero: Branch section-02
 
-This repo contains the source code for section 1 of our course: [
+This repo contains the source code for section 2 of our course: [
 The complete JavaScript developer: MEAN stack zero-to-hero](http://www.fullstacktraining.com/courses/learn-the-mean-stack)
 
 ## Section 2: Working with MongoDB and NoSQL
