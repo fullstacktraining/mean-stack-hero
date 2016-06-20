@@ -23,7 +23,8 @@
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
-    "mongodb": "^2.1.7"
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.8"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
