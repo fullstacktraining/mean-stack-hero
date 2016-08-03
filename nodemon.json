@@ -1,4 +1,4 @@
 {
-  "ignore" : ["public/*"],
-  "verbose" : true
+  "verbose": true,
+  "ignore": ["public/*"]
 }

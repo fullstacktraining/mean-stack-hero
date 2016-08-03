@@ -46,7 +46,7 @@ var runGeoQuery = function(req, res) {
 };
 
 module.exports.hotelsGetAll = function(req, res) {
-
+  console.log('Requested by: ' + req.user);
   console.log('GET the hotels');
   console.log(req.query);
 
@@ -230,24 +230,4 @@ module.exports.hotelsUpdateOne = function(req, res) {
 
     });
 
-};
-
-
-module.exports.hotelsDeleteOne = function(req, res) {
-  var hotelId = req.params.hotelId;
-
-  Hotel
-    .findByIdAndRemove(hotelId)
-    .exec(function(err, location) {
-      if (err) {
-        res
-          .status(404)
-          .json(err);
-      } else {
-        console.log("Hotel deleted, id:", hotelId);
-        res
-          .status(204)
-          .json();        
-      }
-    });
 };
