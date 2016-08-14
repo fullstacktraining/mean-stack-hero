@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html ng-app="meanhotel">
 <head>
   <title>MEAN hotel</title>
@@ -8,18 +7,10 @@
 </head>
 <body>
 
-  <div ng-view></div>
-=======
-<html>
-<head>
-  <title>MEAN hotel</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/custom.css" rel="stylesheet" />
-</head>
-<body>
-
-  <h1>MEAN hotel homepage</h1>
->>>>>>> bf895ecfd8bcfcbf644d3b9016f4731c3f0e1a1d
+  <mh-navigation></mh-navigation>
+  <div class="container">
+    <div ng-view></div>
+  </div>
 
   <footer class="footer">
     <div class="container">
@@ -34,18 +25,18 @@
   </footer>
 
   <script src="jquery/jquery-2.1.4.min.js"></script>
-<<<<<<< HEAD
   <script src="node_modules/angular/angular.js"></script>
   <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
   <script src="angular-app/app.js"></script>
   <script src="angular-app/hotel-list/hotel-list-controller.js"></script>
   <script src="angular-app/hotel-display/hotel-display-controller.js"></script>
   <script src="angular-app/hotel-data-factory/hotel-data-factory.js"></script>
   <script src="angular-app/hotel-rating/hotel-rating-directive.js"></script>
+  <script src="angular-app/register/register-controller.js"></script>
+  <script src="angular-app/navigation-directive/navigation-directive.js"></script>
+  <script src="angular-app/login/login-controller.js"></script>
+  <script src="angular-app/auth/auth-factory.js"></script>
+  <script src="angular-app/auth/auth-interceptor.js"></script>
 </body>
 </html>
-=======
-
-</body>
-</html>
->>>>>>> bf895ecfd8bcfcbf644d3b9016f4731c3f0e1a1d
