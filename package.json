@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mean-stack-hero",
   "version": "1.0.0",
   "description": "This repo contains the MEAN stack application that is built through  Full Stack Training's MEAN Stack course.",
@@ -10,15 +11,44 @@
   "devDependencies": {},
   "scripts": {
     "test": "mocha"
+=======
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> bf895ecfd8bcfcbf644d3b9016f4731c3f0e1a1d
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fullstacktraining/mean-stack-hero.git"
   },
+<<<<<<< HEAD
   "author": "Tamas Piros",
+=======
+  "keywords": [
+    "mean"
+  ],
+  "author": "Full Stack Training",
+>>>>>>> bf895ecfd8bcfcbf644d3b9016f4731c3f0e1a1d
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme"
+=======
+  "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+>>>>>>> bf895ecfd8bcfcbf644d3b9016f4731c3f0e1a1d
 }
