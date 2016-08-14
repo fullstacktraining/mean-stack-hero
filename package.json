@@ -1,0 +1,24 @@
+{
+  "name": "mean-stack-hero",
+  "version": "1.0.0",
+  "description": "This repo contains the MEAN stack application that is built through  Full Stack Training's MEAN Stack course.",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstacktraining/mean-stack-hero.git"
+  },
+  "author": "Tamas Piros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
+  },
+  "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme"
+}
