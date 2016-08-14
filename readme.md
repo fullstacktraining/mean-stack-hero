@@ -2,6 +2,7 @@
 
 This repo contains the MEAN stack application that is built through  Full Stack Training's MEAN Stack course.
 
+<<<<<<< HEAD
 Don't forget to run `npm install` to install the dependencies!
 =======
 # MEAN stack hero: Branch section-05
@@ -38,3 +39,6 @@ And finally install the dependencies:
 ```bash
 npm install
 ```
+=======
+Don't forget to run `npm install` to install the dependencies!
+>>>>>>> 75cfaff071e77cff1bc90ebf5747649dfd38b56d
