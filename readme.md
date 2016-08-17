@@ -6,7 +6,7 @@ Don't forget to run `npm install` to install the dependencies!
 
 # MEAN stack hero: Branch section-05
 
-This repo contains the source code for section 4 of our course: [The complete JavaScript developer: MEAN stack zero-to-hero](http://www.fullstacktraining.com/courses/learn-the-mean-stack)
+This repo contains the source code for section 5 of our course: [The complete JavaScript developer: MEAN stack zero-to-hero](http://www.fullstacktraining.com/courses/learn-the-mean-stack)
 
 ## Section 5: Adding authentication to the MEAN stack
 
@@ -24,7 +24,7 @@ This branch contains the source code of the application as it stands at the *end
 To get the code for this specific branch:
 
 ```bash
-$ git clone -b section-04 https://github.com/fullstacktraining/mean-stack-hero.git
+$ git clone -b section-05 https://github.com/fullstacktraining/mean-stack-hero.git
 ```
 
 Then change into the folder the git clone command will create:
