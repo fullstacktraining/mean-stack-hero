@@ -26,7 +26,6 @@ app.use(bodyParser.json());
 
 // Add some routing
 app.use('/api', routes);
-
 // Listen for requests
 var server = app.listen(app.get('port'), function() {
   var port = server.address().port;
