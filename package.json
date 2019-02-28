@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme",
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.3",
-    "mongodb": "^2.1.7",
-    "mongoose": "^4.4.8"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.16"
   },
   "devDependencies": {
-    "mocha": "^2.3.3"
+    "mocha": "^6.0.2"
   }
 }
