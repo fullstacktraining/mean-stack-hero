@@ -1,14 +1,15 @@
 var MongoClient = require('mongodb').MongoClient;
-var dburl = 'mongodb://localhost:27017/meanhotel';
+var dburl = 'mongodb://localhost:27017';
 
 var _connection = null;
 
 var open = function() {
-  MongoClient.connect(dburl, function(err, db) {
+  MongoClient.connect(dburl, { useNewUrlParser: true }, function(err, client) {
     if (err) {
       console.log("DB connection failed");
       return;
     }
+    var db = client.db('meanhotel');
     _connection = db;
     console.log("DB connection open");
   });

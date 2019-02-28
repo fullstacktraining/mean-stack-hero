@@ -1,0 +1,1 @@
+mongoimport --db meanhotel --collection hotels --file /path/to/hotel-data.json --jsonArray

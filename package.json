@@ -1,31 +1,28 @@
 {
-  "name": "mean-app",
+  "name": "mean-stack-hero",
   "version": "1.0.0",
-  "description": "MEAN stack application",
+  "description": "This repo contains the source code for section 2 of our course: [ The complete JavaScript developer: MEAN stack zero-to-hero](http://www.fullstacktraining.com/courses/learn-the-mean-stack)",
   "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fullstacktraining/mean-stack-hero.git"
   },
-  "keywords": [
-    "mean"
-  ],
-  "author": "Full Stack Training",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
   },
-  "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme",
-  "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.3",
-    "mongodb": "^2.1.7"
-  },
-  "devDependencies": {
-    "mocha": "^2.3.3"
-  }
+  "homepage": "https://github.com/fullstacktraining/mean-stack-hero#readme"
 }
