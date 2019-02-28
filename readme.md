@@ -19,8 +19,8 @@ This repo has one branch per section of the course. Each branch contains the cod
 * `section-01` - set up a web-server with Node.js and Express
 * `section-02` - NoSQL databases and MongoDB
 * `section-03` - Robust REST APIs with Node.js, Express and MongoDB
-* `section-04` - AngularJS Single Page Applications (SPAs) *[COMING SOON]*
-* `section-05` - Authentication in the MEAN stack *[COMING SOON]*
+* `section-04` - AngularJS Single Page Applications (SPAs)
+* `section-05` - Authentication in the MEAN stack
 
 
 ## Get the code
