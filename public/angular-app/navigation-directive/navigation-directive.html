@@ -7,14 +7,14 @@
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>
      </button>
-     <a class="navbar-brand" href="#/">MeanHotel</a>
+     <a class="navbar-brand" href="#!/">MeanHotel</a>
    </div>
    <div id="navbar" class="collapse navbar-collapse">
      <ul class="nav navbar-nav">
-       <li ng-class="vm.isActiveTab('')" class="active"><a href="#/">Home</a></li>
-       <li ng-class="vm.isActiveTab('hotels')"><a href="#/hotels">Hotels</a></li>
-       <li ng-class="vm.isActiveTab('register')" ng-if="!vm.isLoggedIn()"><a href="#/register">Register</a></li>
-       <li ng-class="vm.isActiveTab('profile')" ng-if="vm.isLoggedIn()"><a href="#/profile">Profile</a></li>
+       <li ng-class="vm.isActiveTab('')" class="active"><a href="#!/">Home</a></li>
+       <li ng-class="vm.isActiveTab('hotels')"><a href="#!/hotels">Hotels</a></li>
+       <li ng-class="vm.isActiveTab('register')" ng-if="!vm.isLoggedIn()"><a href="#!/register">Register</a></li>
+       <li ng-class="vm.isActiveTab('profile')" ng-if="vm.isLoggedIn()"><a href="#!/profile">Profile</a></li>
      </ul>
      <form ng-if="!vm.isLoggedIn()" class="navbar-form navbar-right" role="login" ng-submit="vm.login()">
       <div class="form-group" ng-class="{'has-error': vm.error}">

@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+mongoose.set('useCreateIndex', true);
 var userSchema = new mongoose.Schema({
   username: {
     type: String,

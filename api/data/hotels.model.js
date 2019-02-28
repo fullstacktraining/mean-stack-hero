@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-
+mongoose.set('useCreateIndex', true);
 var reviewSchema = new mongoose.Schema({
   name : {
     type : String,
