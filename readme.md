@@ -13,7 +13,6 @@ By the end of this section of our course you will be able to:
 * Create Express middleware
 * Configure the Express router
 
-... and more!
 
 This branch contains the source code of the application as it stands at the *end* of Section 1.
 
